@@ -8,13 +8,13 @@ import Footer from '@/components/layouts/Footer'
 export default function Home() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
-      <MissionVision />
-      <Services />
-      <Gallery />
+      {/* <MissionVision /> */}
+      {/* <Services /> */}
+      {/* <Gallery /> */}
       {/* <Video /> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
 
   )
