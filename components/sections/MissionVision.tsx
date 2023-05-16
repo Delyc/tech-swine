@@ -17,10 +17,10 @@ const MissionVision = () => {
     ]
     return (
         <PageWrapper>
-            <section className="flex justify-center gap-20 py-10">
+            <section className=" flex flex-col lg:flex lg:flex-row justify-center gap-10 lg:gap-20 py-10">
                 {missionVision.map((item, index) => {
                     return (
-                        <div key={index} className="flex items-center flex-col gap-4 w-1/3">
+                        <div key={index} className="flex items-center flex-col gap-4 lg:w-1/3">
                         <div className="flex gap-5 items-center">
                             {item.icon}
                             <p className="font-bold text-dark-blue ">{item.text}</p>

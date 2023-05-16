@@ -3,9 +3,9 @@ import { Clock, Email, Location, Phone } from "../ui/svgs";
 const Footer = () => {
     return ( 
         <section className="bg-dark-blue mt-20">
-            <section className="mx-auto max-w-[75rem] py-16 flex justify-between">
+            <section className="mx-auto max-w-[75rem] px-6 lg:px-0 gap-10 py-16 flex flex-col lg:flex lg:flex-row justify-between">
             <div className="">
-                <h3 className="font-bold text-white text-xl uppercase">Address</h3>
+                <h3 className="font-bold text-white text-md lg:text-xl uppercase">Address</h3>
                 <ul className="flex flex-col gap-3 text-white/80 mt-5">
                     <li className="flex items-center gap-2">
                      <Location />
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <h3 className="uppercase text-white font-bold text-xl">Working hours</h3>
+                <h3 className="uppercase text-white font-bold text-md lg:text-xl">Working hours</h3>
                 <ul className="text-white/70 flex flex-col gap-3 mt-5 ">
                 <li className="flex justify-between gap-10">
                     <p>Monday - Friday            </p>
@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <h3 className="uppercase text-white font-bold text-xl">useful links</h3>
+                <h3 className="uppercase text-white font-bold text-md lg:text-xl">useful links</h3>
                 <ul className="text-white/70 flex flex-col gap-3 mt-5">
                 <li>
                    Contact us
@@ -67,7 +67,7 @@ const Footer = () => {
             </div>
 
             <div>
-                <h3 className="uppercase text-white font-bold text-xl">useful links</h3>
+                <h3 className="uppercase text-white font-bold text-md lg:text-xl">useful links</h3>
                 <ul className="text-white/70 flex flex-col gap-3 mt-5">
                 <li>
                    Contact us

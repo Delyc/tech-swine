@@ -12,7 +12,7 @@ const Gellery = () => {
             <section className="mt-20 flex flex-col items-center">
             <h2 className="text-primary-green font-bold text-2xl">Gallery</h2>
                 <p className="text-dark-blue">Experience excellence in pig farming with our comprehensive suite of services</p>
-            <section className="grid grid-cols-3 mt-10 px-28 gap-5">
+            <section className="grid lg:grid-cols-3 mt-10 px-10 lg:px-28 gap-5">
                 <Image src={image3} alt="pig"/>
                 <Image src={image4} alt="pig"/>
                 <Image src={image5} alt="pig"/>

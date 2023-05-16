@@ -28,15 +28,15 @@ const Services = () => {
 
                 <h2 className="text-primary-green font-bold text-2xl">Our Services</h2>
                 <p className="text-white">Experience excellence in pig farming with our comprehensive suite of services</p>
-                <div className="flex gap-10 px-20 justify-center items-center">
+                <div className="flex flex-col lg:flex lg:flex-row gap-10 lg:px-20 justify-center items-center">
                     {services.map((service, index) => {
                         return(
                             
-                                <div className="flex gap-4 items-center w-1/3 bg-black/20 rounded py-5 px-8">
+                                <div className="flex gap-4 items-center lg:w-1/3 bg-black/20 rounded py-5 px-8">
                                         {/* <div className="bg-primary-green rounded-full w-12 h-12"></div> */}
                                         <div>
                                             <p className="font-bold text-white">{service.service}</p>
-                                            <p className="w-5/6 text-white/70 mt-3 leading-[30px]">{service.desciption}</p>
+                                            <p className="lg:w-5/6 text-white/70 mt-3 leading-[30px]">{service.desciption}</p>
                                             </div>
                                 </div>
                         )
