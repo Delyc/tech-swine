@@ -5,5 +5,7 @@
 
 .hero{
   background-image: url('../public/assets/hero.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
