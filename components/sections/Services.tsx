@@ -32,7 +32,7 @@ const Services = () => {
                     {services.map((service, index) => {
                         return(
                             
-                                <div className="flex gap-4 items-center lg:w-1/3 bg-black/20 rounded py-5 px-8">
+                                <div key={index} className="flex gap-4 items-center lg:w-1/3 bg-black/20 rounded py-5 px-8">
                                         {/* <div className="bg-primary-green rounded-full w-12 h-12"></div> */}
                                         <div>
                                             <p className="font-bold text-white">{service.service}</p>
