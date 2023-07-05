@@ -6,12 +6,12 @@ const MissionVision = () => {
         {
             icon: <Mission />,
             text: "Mission",
-            description: "To drive the transformation of pig farming through innovative technology, sustainable practices, and a commitment to animal welfare while promoting environmental stewardship and supporting the livelihoods of our farming community."
+            description: "We strive to design out waste, optimize resource utilization, and promote circularity by converting organic waste into valuable resources and repurposing them within the farming system."
         },
         {
             icon: <Vision />,
             text: "Vision",
-            description: " Creating a future where pig farming integrates seamlessly with technology, ensuring optimal animal health and welfare, minimizing environmental impact, and meeting the growing demand for safe and nutritious pork worldwide."
+            description: "To lead the transformation of pig farming towards a sustainable and circular future, where innovative practices and resource efficiency ensure the well-being of livestock, minimize environmental impact, and inspire positive change in the agricultural industry."
         },
 
     ]

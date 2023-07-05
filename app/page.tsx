@@ -5,13 +5,15 @@ import Services from '@/components/sections/Services'
 import Gallery from '@/components/sections/Gallery'
 import Video from '@/components/sections/Video'
 import Footer from '@/components/layouts/Footer'
+import WhatWeOffer from '@/components/sections/WhatWeOffer'
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
       <MissionVision />
-      <Services />
+      <WhatWeOffer />
+      {/* <Services /> */}
       <Gallery />
       {/* <Video /> */}
       <Footer />
