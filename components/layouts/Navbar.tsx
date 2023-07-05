@@ -10,10 +10,14 @@ const Navbar = () => {
                     <Link href="#">Home</Link>
                     <Link href="#">About us</Link>
                     <Link href="#">Services</Link>
-                    <Link href="#">Shop</Link>
-                    <Link href="#">Blog</Link>
+                    <Link href="#">Gallery</Link>
+                    {/* <Link href="#">Shop</Link>
+                    <Link href="#">Blog</Link> */}
                 </ul>
-                <Button className="border border-primary-green text-primary-green" text="Support us"/>
+                <a href="https://forms.gle/CJM2zjBV1fHW1cAk8" target="_b">
+                <Button className="border border-primary-green text-primary-green" text="Contact us"/>
+
+                </a>
             </nav>
         </section>
     );

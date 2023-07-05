@@ -17,7 +17,7 @@ const Footer = () => {
                         </li>
                         <li className="flex items-center gap-2">
                             <Email />
-                            info@gmail.com
+                            delyce35@gmail.com
                         </li>
                         <li className="flex items-center gap-2">
                             <Clock />

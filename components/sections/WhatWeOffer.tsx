@@ -56,7 +56,7 @@ const WhatWeOffer = () => {
             {services.map((service, index) => {
                 return(
                     <div key={index} className='flex gap-5 items-center'>
-                        <Image src={service.icon} alt="test" width={250} height={250}/>
+                        <Image src={service.icon} alt="test" width={200} height={50}/>
                         <div>
                         <p className='font-bold text-primary-green'>{service.service}</p>
                         <p>{service.desciption}</p>
