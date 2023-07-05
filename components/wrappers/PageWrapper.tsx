@@ -5,5 +5,4 @@ const PageWrapper = ({children} : any) => {
         </section>
      );
 }
- 
 export default PageWrapper;

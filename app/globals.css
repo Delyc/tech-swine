@@ -2,17 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.hero{
+.hero {
   background-image: url('../public/assets/hero.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-};
-
-
-.video{
-  background-image: url('../public/assets/bgPig.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.video {
+  background-image: url('../public/assets/bgPig.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
