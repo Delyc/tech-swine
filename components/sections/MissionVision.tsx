@@ -20,12 +20,12 @@ const MissionVision = () => {
             <section className=" flex flex-col lg:flex lg:flex-row justify-center gap-10 lg:gap-20 py-10">
                 {missionVision.map((item, index) => {
                     return (
-                        <div key={index} className="flex items-center flex-col gap-4 lg:w-1/3">
+                        <div key={index} className="flex i flex-col gap-4 lg:w-1/3 bg-primary-green rounded text-white py-5 px-10">
                             <div className="flex gap-5 items-center">
-                                {item.icon}
-                                <p className="font-bold text-dark-blue ">{item.text}</p>
+                                {/* {item.icon} */}
+                                <p className="font-bold  ">{item.text}</p>
                             </div>
-                            <p className="text-center leading-[30px]">{item.description}</p>
+                            <p className="leading-[30px]">{item.description}</p>
                         </div>
                     )
                 })}

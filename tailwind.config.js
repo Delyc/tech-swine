@@ -11,6 +11,9 @@ module.exports = {
         "primary-green" : "#66CC99",
         "dark-blue" : "#080D1C"
       },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+      },
       
 
     },
