@@ -17,7 +17,7 @@ const MissionVision = () => {
     ]
     return (
         <PageWrapper>
-            <section className=" flex flex-col lg:flex lg:flex-row justify-center gap-10 lg:gap-20 py-10">
+            <section className=" flex flex-col lg:flex lg:flex-row justify-center gap-10 lg:gap-20 py-10 font-sans">
                 {missionVision.map((item, index) => {
                     return (
                         <div key={index} className="flex i flex-col gap-4 lg:w-1/3 bg-primary-green rounded text-white py-5 px-10">

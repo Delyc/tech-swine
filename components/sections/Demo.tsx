@@ -1,7 +1,7 @@
 import Button from "../ui/Button";
 const Demo = () => {
     return (
-        <section className="relative">
+        <section className="relative font-sans">
             <div className="hero w-full h-[60vh]">
                 <div className="flex flex-col gap-5 justify-center h-full items-center">
                     <h1 className="text-white text-[42px] font-bold">Welcome to Swine And Dine Ranch</h1>

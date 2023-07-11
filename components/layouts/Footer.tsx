@@ -2,11 +2,11 @@ import { Clock, Email, Location, Phone } from "../ui/svgs";
 
 const Footer = () => {
     return (
-        <section className="bg-dark-blue mt-20">
+        <section className="bg-dark-blue mt-20 font-sans">
             <section className="mx-auto max-w-[75rem] px-6 lg:px-0 gap-10 py-16 grid grid-cols-4 gap-20 justify-between">
                 <div className="flex flex-col gap-5">
                     <h1 className="text-3xl text-primary-green font-medium">SADR</h1>
-                    <p className="text-white/80">Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+                    <p className="text-white/80 font-sans">Qorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
                 </div>
                 
                 <div className="">

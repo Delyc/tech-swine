@@ -54,12 +54,10 @@ const WhatWeOffer = () => {
     ]
     return (
         <>
-
-
-            <section className='bg-[#FFF9F9] px-40 py-28 mt-10'>
+            <section className='bg-[#FFF9F9] px-40 py-28 mt-10 font-sans'>
                 <div className='flex flex-col gap-4 items-center mb-12'>
                     <h2 className="text-primary-green font-bold text-2xl">What We Offer</h2>
-                    <p className="text-dark-blue">Experience excellence in pig farming with our comprehensive suite of services</p>
+                    <p className="text-dark-blue font-sans">Experience excellence in pig farming with our comprehensive suite of services</p>
                 </div>
                 <div className='grid grid-cols-4 gap-4 relative'>
                     {services.map((service, index) => {
@@ -71,7 +69,7 @@ const WhatWeOffer = () => {
                                     {/* <div> */}
                                     <p className=' text-dark-blue w-4/5 '>{service.service}</p>
                                     {/* </div> */}
-                                    <p className=' text-sm'>{service.desciption}</p>
+                                    <p className=' text-md text-text-gray font-sans tracking-[o.5px]'>{service.desciption}</p>
                                     {/* </div> */}
                                     <div>
                                         {service.tags?.map((tag, index) => {

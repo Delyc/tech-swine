@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;900&display=swap');
-
-body {
-  /* ... */
-  font-family: 'Work Sans', 'Helvetica Neue', cursive;
-}
 
 .hero {
   background-image: url('../public/assets/hero.png');
