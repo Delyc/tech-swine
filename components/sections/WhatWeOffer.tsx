@@ -54,12 +54,12 @@ const WhatWeOffer = () => {
     ]
     return (
         <>
-            <section className='bg-[#FFF9F9] px-40 py-28 mt-10 font-sans'>
+            <section className='bg-[#FFF9F9] px-10 lg:px-40 py-28 mt-40 lg:mt-10 font-sans'>
                 <div className='flex flex-col gap-4 items-center mb-12'>
                     <h2 className="text-primary-green font-bold text-2xl">What We Offer</h2>
                     <p className="text-dark-blue font-sans">Experience excellence in pig farming with our comprehensive suite of services</p>
                 </div>
-                <div className='grid grid-cols-4 gap-4 relative'>
+                <div className='grid grid-cols-1 lg:grid-cols-4 gap-4 relative'>
                     {services.map((service, index) => {
                         return (
                             <div key={index} className='  bg-white shadow-xl rounded p-5' >
@@ -80,7 +80,7 @@ const WhatWeOffer = () => {
                                         }
                                     </div>
                                 </div>
-                                <button className='font-medium absolute bottom-5 border border-primary-green px-5 py-2 bg-primary-green text-white rounded'>{service.btnText}</button>
+                                <button className='font-medium  bottom-5 border border-primary-green px-5 py-2 bg-primary-green text-white rounded'>{service.btnText}</button>
                             </div>
                         )
                     }
