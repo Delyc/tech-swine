@@ -20,3 +20,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.work{
+  background-image: url('../public/assets/pigg.png');
+  background-color: #ffffffd3;
+}

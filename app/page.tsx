@@ -6,12 +6,14 @@ import Gallery from '@/components/sections/Gallery'
 import Video from '@/components/sections/Video'
 import Footer from '@/components/layouts/Footer'
 import WhatWeOffer from '@/components/sections/WhatWeOffer'
+import HowItWorks from '@/components/sections/HowItWorks'
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
       <MissionVision />
+      <HowItWorks />
       <WhatWeOffer />
       {/* <Services /> */}
       <Gallery />
