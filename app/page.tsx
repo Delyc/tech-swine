@@ -7,6 +7,7 @@ import Video from '@/components/sections/Video'
 import Footer from '@/components/layouts/Footer'
 import WhatWeOffer from '@/components/sections/WhatWeOffer'
 import HowItWorks from '@/components/sections/HowItWorks'
+import Demo from '@/components/sections/Demo'
 export default function Home() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function Home() {
       <HowItWorks />
       <WhatWeOffer />
       {/* <Services /> */}
+      <Demo />
       <Gallery />
       {/* <Video /> */}
       <Footer />
