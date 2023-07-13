@@ -47,14 +47,16 @@ const HowItWorks = () => {
                         <p className='text-text-gray w-3/5 text-center'>Zero Waste Champions: Paving the Path to a Greener Future!</p>
                     </div>
                     <div className='flex gap-2'>
-                        <div className="w-64 bg-white px-8 py-3 shadow-xl h-44">
-                            <div className="w-12 h-12 rounded-full bg-primary-green grid place-content-center">1</div>
-                            <p className=''>Experience excellence in pig farming with our comprehensive suite of services</p>
+                        <div className="w-96 bg-white px-8 py-5 shadow-xl">
+                            <div className="w-12 h-12 rounded-full bg-primary-green grid place-content-center font-bold text-2xl">1</div>
+                            <p className='my-2 text-primary-green font-bold text-xl'>Waste Collection and Segregation</p>
+                            <p className='text-text-gray'> Collect and separate organic waste to promote effective waste management and resource utilization.</p>
                         </div>
                         <Image className='h-44 w-72 mt-10' src={vector1} alt="vector 1" />
-                        <div className="w-64 bg-white px-8 py-3 shadow-xl mt-24">
-                            <div className="w-12 h-12 rounded-full bg-primary-green grid place-content-center">1</div>
-                            <p>Experience excellence in pig farming with our comprehensive suite of services</p>
+                        <div className="w-96 bg-white px-8 py-5 shadow-xl mt-24">
+                            <div className="w-12 h-12 rounded-full bg-primary-green grid place-content-center font-bold text-2xl">2</div>
+                            <p className='my-2 text-primary-green font-bold text-xl'>Black Soldier Fly Larvae Rearing</p>
+                            <p className='text-text-gray'>Utilize black soldier fly larvae to convert organic waste into valuable nutrient-rich biomass.</p>
                         </div>
                     </div>
                     <div className='flex justify-end w-1/2'>
@@ -62,18 +64,20 @@ const HowItWorks = () => {
                     </div>
 
                     <div className='flex w-1/2 -mt-20'>
-                        <div className="w-64 bg-white px-8 py-3 shadow-xl">
-                            <div className="w-12 h-12 rounded-full bg-primary-green grid place-content-center">1</div>
-                            <p>Experience excellence in pig farming with our comprehensive suite of services</p>
+                        <div className="w-96 bg-white px-8 py-5 shadow-xl">
+                            <div className="w-12 h-12 rounded-full bg-primary-green grid place-content-center font-bold text-2xl">3</div>
+                            <p className='my-2 text-primary-green font-bold text-xl'>Utilizing Urine in Hydroponics</p>
+                            <p className='text-text-gray'>Employ hydroponic systems to utilize animal urine as a sustainable nutrient source, fostering plant growth and resource efficiency.</p>
                         </div>
                     </div>
 
                     <div className='flex justify-end gap-10 w-3/5'>
                         {/* <div></div> */}
                         <Image className='h-44 w-64' src={vector3} alt="vector 1" />
-                        <div className="w-64 bg-white px-8 py-3 shadow-xl mt-14">
-                            <div className="w-12 h-12 rounded-full bg-primary-green grid place-content-center">1</div>
-                            <p>Experience excellence in pig farming with our comprehensive suite of services</p>
+                        <div className="w-96 bg-white px-8 py-5 shadow-xl mt-14">
+                            <div className="w-12 h-12 rounded-full bg-primary-green grid place-content-center font-bold text-2xl">4</div>
+                            <p className='my-2 text-primary-green font-bold text-xl'>Animal Nutrient Reincorporation</p>
+                            <p className='text-text-gray'>Close the loop by feeding the resulting products, such as black soldier fly larvae and hydroponic biomass, back to animals, ensuring efficient utilization of resources in animal nutrition.</p>
                         </div>
                     </div>
                 </section>
