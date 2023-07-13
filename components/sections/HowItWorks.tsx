@@ -12,7 +12,7 @@ const HowItWorks = () => {
                 <div className='flex justify-center items-center h-full'>
                     <Image src={pigg} alt="pig" className='w-2/5' />
                 </div>
-                <section className='flex flex-col gap-5 bg-[#ffffffd3] absolute  top-0 '>
+                <section className='flex flex-col gap-5 bg-[#ffffffd3] absolute  top-0 lg:hidden'>
                     <div className='flex flex-col gap-3 items-center'>
                         <h1 className='text-3xl text-dark-blue font-bold'>How we work</h1>
                         <p className='text-text-gray w-3/5 text-center'>Zero Waste Champions: Paving the Path to a Greener Future!</p>
@@ -41,7 +41,7 @@ const HowItWorks = () => {
 
                 </section>
 
-                <section className="flex flex-col items-center absolute  top-0 bg-[#ffffffd3] w-full py-20 hidden md:block">
+                <section className="lg:flex lg:flex-col items-center absolute  top-0 bg-[#ffffffd3] w-full py-20 hidden md:block">
                     <div className='flex flex-col gap-3 items-center'>
                         <h1 className='text-3xl text-dark-blue font-bold'>How we work</h1>
                         <p className='text-text-gray w-3/5 text-center'>Zero Waste Champions: Paving the Path to a Greener Future!</p>

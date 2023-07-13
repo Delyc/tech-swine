@@ -67,7 +67,7 @@ const WhatWeOffer = () => {
                                     {/* <div className='flex items-center'> */}
                                     <Image src={service.icon} alt="test" width={100} height={100} className='rounded-full' />
                                     {/* <div> */}
-                                    <p className=' text-dark-blue w-4/5 '>{service.service}</p>
+                                    <p className='text-[#0B666A] font-bold w-4/5 '>{service.service}</p>
                                     {/* </div> */}
                                     <p className=' text-md text-text-gray font-sans tracking-[o.5px]'>{service.desciption}</p>
                                     {/* </div> */}

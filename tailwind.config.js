@@ -13,8 +13,6 @@ module.exports = {
         "text-gray" : "#423A3A",
       },
 
-      
-
     },
   },
   plugins: [],
