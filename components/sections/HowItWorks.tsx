@@ -1,6 +1,7 @@
 import vector1 from '../../public/assets/vector1.png';
 import vector2 from '../../public/assets/vector2.png';
 import vector3 from '../../public/assets/vector3.png';
+import uparrow from '../../public/assets/uparrow.png';
 import pigg from '../../public/assets/pigg.png';
 import Image from 'next/image';
 import { DashedArrow } from '../ui/svgs';
@@ -10,7 +11,7 @@ const HowItWorks = () => {
         <section className='flex justify-center font-sans'>
             <section className='relative  py-20 h-[60rem] max-w-[80rem]'>
                 <div className='flex justify-center items-center h-full'>
-                    <Image src={pigg} alt="pig" className='w-2/5' />
+                    <Image src={pigg} alt="pig" className='w-2/5 mt-20' />
                 </div>
                 <section className='flex flex-col gap-5 bg-[#ffffffd3] absolute  top-0 lg:hidden'>
                     <div className='flex flex-col gap-3 items-center'>
@@ -47,7 +48,7 @@ const HowItWorks = () => {
                         <p className='text-text-gray w-3/5 text-center'>Zero Waste Champions: Paving the Path to a Greener Future!</p>
                     </div>
                     <div className='flex gap-2'>
-                        <div className="w-96 bg-white px-8 py-5 shadow-xl">
+                        <div className="w-96 h-56 bg-white px-8 py-5 shadow-xl">
                             <div className="w-12 h-12 rounded-full bg-primary-green grid place-content-center font-bold text-2xl">1</div>
                             <p className='my-2 text-primary-green font-bold text-xl'>Waste Collection and Segregation</p>
                             <p className='text-text-gray'> Collect and separate organic waste to promote effective waste management and resource utilization.</p>
@@ -59,27 +60,29 @@ const HowItWorks = () => {
                             <p className='text-text-gray'>Utilize black soldier fly larvae to convert organic waste into valuable nutrient-rich biomass.</p>
                         </div>
                     </div>
-                    <div className='flex justify-end w-1/2'>
-                        <Image className='h-44 w-81' src={vector2} alt="vector 1" />
+                    <div className='flex justify-between w-3/4'>
+                        <Image src={uparrow} alt="up arrow" className='w-44 h-72 -mt-10' />
+                        <Image className='h-44 w-44' src={vector2} alt="vector 1" />
                     </div>
 
-                    <div className='flex w-1/2 -mt-20'>
-                        <div className="w-96 bg-white px-8 py-5 shadow-xl">
-                            <div className="w-12 h-12 rounded-full bg-primary-green grid place-content-center font-bold text-2xl">3</div>
-                            <p className='my-2 text-primary-green font-bold text-xl'>Utilizing Urine in Hydroponics</p>
-                            <p className='text-text-gray'>Employ hydroponic systems to utilize animal urine as a sustainable nutrient source, fostering plant growth and resource efficiency.</p>
-                        </div>
-                    </div>
-
-                    <div className='flex justify-end gap-10 w-3/5'>
-                        {/* <div></div> */}
-                        <Image className='h-44 w-64' src={vector3} alt="vector 1" />
-                        <div className="w-96 bg-white px-8 py-5 shadow-xl mt-14">
+                    <div className='flex relative justify-end w-4/5 -mt-10 '>
+                        <div className="w-96 h-64 bg-white px-8 py-5 shadow-xl -mt-20">
                             <div className="w-12 h-12 rounded-full bg-primary-green grid place-content-center font-bold text-2xl">4</div>
                             <p className='my-2 text-primary-green font-bold text-xl'>Animal Nutrient Reincorporation</p>
                             <p className='text-text-gray'>Close the loop by feeding the resulting products, such as black soldier fly larvae and hydroponic biomass, back to animals, ensuring efficient utilization of resources in animal nutrition.</p>
                         </div>
+                        <Image className='h-44 w-64 rotate-180' src={vector3} alt="vector 1" />
+                        <div className="w-96 h-56 bg-white px-8 py-5 shadow-xl">
+                            <div className="w-12 h-12 rounded-full bg-primary-green grid place-content-center font-bold text-2xl">3</div>
+                            <p className='my-2 text-primary-green font-bold text-xl'>Utilizing Urine in Hydroponics</p>
+                            <p className='text-text-gray'>Employ hydroponic systems to utilize animal urine as a sustainable nutrient source, fostering plant growth and resource efficiency.</p>
+                        </div>
+
                     </div>
+
+
+
+
                 </section>
             </section>
         </section>
