@@ -19,9 +19,9 @@ const Navbar = () => {
                     </button>
                     {showMenu && <ul className="absolute bg-white right-0 p-6 shadow-xl top-14 flex flex-col items-center gap-6 text-dark-blue md:hidden">
                         <Link href="#">Home</Link>
-                        <Link href="#">About us</Link>
-                        <Link href="#">Services</Link>
-                        <Link href="#">Gallery</Link>
+                        <Link href="page-under-construction">About us</Link>
+                        <Link href="page-under-construction">Services</Link>
+                        <Link href="page-under-construction">Gallery</Link>
                         <a href="https://forms.gle/CJM2zjBV1fHW1cAk8" target="_b">
                             <Button className="bg-primary-green text-white font-semibold rounded-[5px] py-2" text="Contact us" />
                         </a>
@@ -29,9 +29,9 @@ const Navbar = () => {
 
                 <ul className="lg:flex lg:flex-row items-center gap-12 text-dark-blue hidden md:block">
                     <Link href="#">Home</Link>
-                    <Link href="#">About us</Link>
-                    <Link href="#">Services</Link>
-                    <Link href="#">Gallery</Link>
+                    <Link href="page-under-construction">About us</Link>
+                    <Link href="page-under-construction">Services</Link>
+                    <Link href="page-under-construction">Gallery</Link>
                     <a href="https://forms.gle/CJM2zjBV1fHW1cAk8" target="_b">
                         <Button className="bg-primary-green text-white font-semibold rounded-[5px]" text="Contact us" />
                     </a>

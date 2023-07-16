@@ -2,6 +2,7 @@ import test from '../../public/assets/hydrop.jpg'
 import Image from 'next/image'
 import pig from '../../public/assets/pigg.png'
 import fly from '../../public/assets/fly.jpg'
+import Link from 'next/link'
 const WhatWeOffer = () => {
 
     const services = [
@@ -80,7 +81,9 @@ const WhatWeOffer = () => {
                                         }
                                     </div>
                                 </div>
+                                <Link href="page-under-construction">
                                 <button className='font-medium  bottom-5 border border-primary-green px-5 py-2 bg-primary-green text-white rounded'>{service.btnText}</button>
+                        </Link>
                             </div>
                         )
                     }

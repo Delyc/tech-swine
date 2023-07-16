@@ -54,17 +54,12 @@ const Footer = () => {
                 <div className="lg:ml-10">
                     <h3 className="uppercase text-white font-bold text-md lg:text-xl">useful links</h3>
                     <ul className="text-white/70 flex flex-col gap-3 mt-5">
+                 
+                        <a href="https://forms.gle/CJM2zjBV1fHW1cAk8" target="_b">
                         <li>
                             Contact us
-                        </li> <li>
-                            Contact us
-                        </li> <li>
-                            Contact us
-                        </li> <li>
-                            Contact us
-                        </li>
-
-
+                        </li> 
+                    </a>
 
                     </ul>
                 </div>
